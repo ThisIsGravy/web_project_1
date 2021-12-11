@@ -25,7 +25,7 @@ h1{
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #F2F2F2 ;
+  background-color: #F2F2F2;
   /* parameters for the header section */
 
 }
@@ -107,9 +107,9 @@ h1{
 .two-columns__brief{
   width: 175px;
   line-height: 1.2;
-  font-size: 18px ;
+  font-size: 18px;
   font-weight: normal;
-  color: #2F80ED ;
+  color: #2F80ED;
 }
 
 .two-columns__main-text{
@@ -138,7 +138,7 @@ h1{
   margin-top: 100px;
 }
 
-.section-title{
+.digits__section_title{
   display: flex;
   margin: auto;
   width: 60%;
@@ -146,12 +146,12 @@ h1{
   justify-content: center;
 }
 
-.section-subtitle{
-  text-align: center;
+.digits__section_subtitle-text{
   width: 60%;
   padding-top: 20px;
   margin: auto;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .table{
@@ -180,13 +180,13 @@ li.table__cell:nth-child(-n+4){
   margin-bottom: 60px;
 }
 
-.section-title{
+.section-title-text{
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
 }
 
-.section-subtitle{
+.section-subtitle-text{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -217,7 +217,7 @@ li.table__cell:nth-child(-n+4){
   position: relative;
   justify-content: center;
   margin-bottom: 100px;
-  background-color: #F2F2F2 ;
+  background-color: #F2F2F2;
 }
 
 .feynman__title{
@@ -240,14 +240,14 @@ text-align: center;
 .feynman__link{
 position: absolute;
 top: 50%;
-right: 48px ;
+right: 48px;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
 }
 
 .kaufman{
-background-color: #1F1F1F ;
+background-color: #1F1F1F;
 position: relative;
 }
 
@@ -327,7 +327,7 @@ position: relative;
 
 .footer{
   min-height: 350px;
-  background-color:#1F1F1F ;
+  background-color:#1F1F1F;
   bottom: 0px;
   padding-top: 60px;
 }
