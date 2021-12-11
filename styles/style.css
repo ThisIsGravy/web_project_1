@@ -234,6 +234,7 @@ line-height: 1.15;
 font-size: 36px;
 font-weight: normal;
 text-align: center;
+margin-top: 70px;
 
 }
 
@@ -255,7 +256,6 @@ position: relative;
   position: absolute;
   right: -124px;
   overflow: hidden;
-  z-index: 1;
   background-size: 660px 636px;
 }
 
@@ -271,6 +271,7 @@ position: relative;
   font-size: 60px;
   font-weight: bold;
   padding-top: 90px;
+  z-index: 2;
 
 }
 
@@ -395,7 +396,7 @@ position: relative;
   list-style: none;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normals;
+  font-weight: normal;
 }
 
 li.footer__list:nth-of-type(2){
@@ -403,6 +404,5 @@ li.footer__list:nth-of-type(2){
 }
 
 .footer__social_media_icons{
-  size: 16px 16px;
-  margin-right: 10px;
+margin-right: 10px;
 }
