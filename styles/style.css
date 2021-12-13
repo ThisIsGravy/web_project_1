@@ -158,7 +158,7 @@
   flex-wrap: wrap;
 }
 
-.table__cell:nth-of-type(n-5){
+.table__cell:nth-of-type(n-5) {
   margin-bottom: 60px;
 }
 
