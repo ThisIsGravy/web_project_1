@@ -80,6 +80,8 @@
   position: absolute;
   object-position: bottom right;
   max-height: 608px;
+  bottom: 0px;
+  right: 0px;
   max-width: 756px;
   z-index: 2;
   object-fit: contain;
