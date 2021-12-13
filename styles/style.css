@@ -97,10 +97,10 @@
 .two-columns {
   width: 80%;
   display: flex;
-  flex-direction: row;
 }
 
 .two-columns__brief {
+  margin-top: 0px;
   max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -109,6 +109,8 @@
 }
 
 .two-columns__main-text {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
