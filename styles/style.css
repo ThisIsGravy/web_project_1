@@ -20,6 +20,8 @@ div{
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  flex-direction: column;
+  justify-content: center; /*updated*/
   /* parameters for the header section */
 }
 
@@ -27,9 +29,7 @@ div{
   max-width: 730px;
   margin-left: 64px;
   z-index: 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -64,7 +64,6 @@ div{
 }
 
 .logo_place_header {
-  display: flex;
   width: 154px;
   height: 31px;
 }
@@ -213,7 +212,6 @@ div{
   background-size: 867px 637px;
   height: 790px;
   position: relative;
-  margin-bottom: 100px;
   background-color: #f2f2f2;
 }
 
@@ -266,14 +264,14 @@ div{
   display: flex;
   margin: auto;
   width: 60%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   justify-content: center;
   text-align: center;
   color: white;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  padding-top: 90px;
+  margin-top: 90px;
   z-index: 2;
 }
 
@@ -285,7 +283,6 @@ div{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 60px;
 }
 
 .table_theme_dark {
@@ -308,6 +305,7 @@ div{
   display: flex;
   flex-direction: column;
   z-index: 2;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -320,7 +318,6 @@ div{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 80px;
 }
 
 .footer {
@@ -333,6 +330,7 @@ div{
 }
 
 .footer__columns {
+  margin: 0 auto; /*updated*/
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -367,7 +365,7 @@ div{
 }
 
 .footer__column-link {
-  color: white;
+  color: #2f80ed;
   text-decoration: none;
   display: flex;
   flex-direction: row;
