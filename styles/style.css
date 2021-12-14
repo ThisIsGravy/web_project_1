@@ -321,43 +321,50 @@ div{
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  padding-top: 60px;
+  margin-top: 60px;
   box-sizing: border-box;
   display: flex;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .footer__columns {
   margin: 0 auto; /*updated*/
-  width: 90%;
   display: flex;
   justify-content: space-between;
+  width: 90%;
 }
 
 .footer__column__content__copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .logo_place_footer {
   max-width: 183px;
   max-height: 35px;
   position: relative;
-  margin-top: 0px;
+  top: 0px;
+  left: 0px;
+  object-fit: contain;
 }
 
 .footer__author {
   color: white;
+  position: relative;
+  left: 0px;
+  bottom: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  text-align: left;
 }
 
 .footer__column-heading {
   color: white;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -370,12 +377,14 @@ div{
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .footer__column__content__about {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .footer__column__content__social {
