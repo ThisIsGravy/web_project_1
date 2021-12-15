@@ -366,6 +366,7 @@ div {
 .footer__column-heading {
   color: white;
   margin-bottom: 20px;
+  margin-top: 0px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -377,13 +378,13 @@ div {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
 }
 
 .footer__column__content__about {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer__column__content__social {
@@ -394,12 +395,12 @@ div {
 }
 
 .footer__list {
-  margin: 0px;
+  padding-left: 0px;
   list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  justify-content: space-around;
+  margin-top: 0px;
 }
 
 .footer__list:nth-of-type(2) {
