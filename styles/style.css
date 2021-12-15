@@ -301,7 +301,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   z-index: 2;
-  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -314,6 +313,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 0px;
 }
 
 .footer {
