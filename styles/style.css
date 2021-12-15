@@ -1,5 +1,4 @@
-
-div{
+div {
   border: 1px red solid;
 }
 .page {
@@ -30,8 +29,8 @@ div{
   width: 100%; /*updated */
   margin-left: 64px;
   z-index: 3;
-margin-top: 0px;
-margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -49,7 +48,6 @@ margin-bottom: 0px;
   z-index: 3;
   margin-top: 0px;
   margin-bottom: 0px; /*update: removing margins */
-
 }
 
 .header__link {
@@ -153,8 +151,6 @@ margin-bottom: 0px;
   justify-content: space-between;
   margin-bottom: 100px;
   padding-left: 0px; /* Update: removed left padding */
-
-
 }
 
 .table__cell {
@@ -374,7 +370,6 @@ margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-
 }
 
 .footer__column-link {
