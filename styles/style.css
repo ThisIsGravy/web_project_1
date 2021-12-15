@@ -27,9 +27,11 @@ div{
 
 .header__title {
   max-width: 730px;
+  width: 100%; /*updated */
   margin-left: 64px;
   z-index: 3;
-
+margin-top: 0px;
+margin-bottom: 0px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -38,6 +40,7 @@ div{
 .header__subtitle {
   position: absolute;
   max-width: 388px;
+  width: 100%; /*updated*/
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -80,17 +83,16 @@ div{
 
 .header__main-illustration {
   position: absolute;
-  object-position: bottom right;
+  object-position: bottom right; /*updated*/
   max-height: 608px;
   bottom: 0px;
   right: 0px;
   max-width: 756px;
   z-index: 2;
-  object-fit: contain;
+  object-fit: contain; /*updated*/
 }
 
 .description {
-  margin-top: 100px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -99,11 +101,15 @@ div{
 .two-columns {
   width: 80%;
   display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
 }
 
 .two-columns__brief {
   margin-top: 0px;
+  margin-bottom: 0px;
   max-width: 175px;
+  width: 100%;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -111,11 +117,8 @@ div{
 }
 
 .two-columns__main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 80%;
-  min-width: 784px;
+  min-width: 784px; /*updated*/
 }
 
 .two-columns__paragraph {
@@ -127,8 +130,8 @@ div{
 }
 
 .two-columns__paragraph:last-of-type {
-  text-indent: 0px;
   margin-bottom: 0px;
+  text-indent: 0px; /*updated*/
 }
 
 .two-columns__span-accent {
@@ -139,7 +142,6 @@ div{
 
 .digits {
   position: relative;
-  margin-top: 100px;
 }
 
 .table {
@@ -171,6 +173,7 @@ div{
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .section-subtitle {
@@ -196,7 +199,7 @@ div{
 }
 
 .table__text:last-of-type() {
-  text-indent: 0px;
+  text-indent: 0px; /*updated*/
 }
 
 .feynman {
@@ -229,6 +232,8 @@ div{
   font-weight: normal;
   text-align: center;
   justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; /*updated*/
 }
 
 .feynman__link {
@@ -251,7 +256,7 @@ div{
 .kaufman__triangle {
   position: absolute;
   right: -124px;
-  top: 0px;
+  top: 0px; /*updated*/
   overflow: hidden;
   background-size: 660px 636px;
   z-index: 1;
@@ -321,10 +326,10 @@ div{
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  margin-top: 60px;
+  padding-top: 60px; /*updated*/
   box-sizing: border-box;
-  display: flex;
-  margin-bottom: 40px;
+  display: flex; /*updated*/
+  padding-bottom: 40px; /*updated*/
 }
 
 .footer__columns {
@@ -384,12 +389,10 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .footer__column__content__social {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;

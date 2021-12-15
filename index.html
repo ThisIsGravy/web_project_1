@@ -10,11 +10,13 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
+        <div>
+          <img
           class="logo logo_place_header"
           src="./images/logo_place_header.png"
           alt="Logo for Practicum by Yandex"
         />
+        </div>
         <h1 class="header__title">Learning How to Learn</h1>
         <p class="header__subtitle">
           The most effective, cutting edge learning techniques that you can
@@ -27,8 +29,8 @@
           class="header__main-illustration"
           src="./images/header-image.png"
           alt="A brave learner looking at an abstract blue square"
-        />
-        <div class="header__square"></div>
+        /> <!---updated-->
+        <div class="header__square"></div> <!---updated-->
       </header>
       <main class="content">
         <section class="description">
@@ -67,10 +69,10 @@
         </section>
 
         <section class="digits">
-          <h1 class="section-title">Facts and figures</h1>
-          <h2 class="section-subtitle">On learning and the brain</h2>
+          <h1 class="section-title">Facts and figures</h1> <!---updated-->
+          <h2 class="section-subtitle">On learning and the brain</h2> <!---updated-->
           <ul class="table">
-            <li class="table__cell">
+            <li class="table__cell"> <!---updated margins in CSS and aligned in flex-->
               <h3 class="table__heading">86 Billion</h3>
               <p class="table__text">
                 The number of neurons in the human brain
@@ -125,7 +127,7 @@
           </ul>
         </section>
 
-        <section class="feynman">
+        <section class="feynman"> <!---updated: removed div-->
           <h1 class="feynman__title">The Feynman Technique</h1>
           <h2 class="feynman__subtitle">Learn Without Forgetting</h2>
           <a class="feynman__link" href="#"> More &#8594; </a>
@@ -138,14 +140,14 @@
         Kaufman claims ownership"
             src="./images/kaufman-triangle.svg"
           />
-          <h1 class="section-title section-title_theme_dark">
+          <h1 class="section-title section-title_theme_dark"> <!---updated:BEM-->
             Ten principles of rapid skill acquisition
           </h1>
           <h2 class="section-subtitle section-subtitle_theme_dark">
             by Josh Kaufman
           </h2>
           <ul class="table table_theme_dark">
-            <li class="table__cell table__cell_theme_dark">
+            <li class="table__cell table__cell_theme_dark"> <!---updated: BEM for whole block-->
               <h3 class="table__heading table__heading_theme_dark">1</h3>
               <p class="table__text table__text_theme_dark">
                 Choose a lovable project
@@ -210,19 +212,19 @@
       </main>
       <footer class="footer">
         <div class="footer__columns">
-          <div class="footer__columns footer__column__content__copyright">
+          <div class="footer__columns footer__column__content__copyright"><!---updated: BEM-->
             <img
               class="logo logo_place_footer"
               alt="Logo for Practicum By Yandex"
               src="./images/logo_place_footer.png"
-            />
+            /> <!---updated:BEM-->
             <h4 class="footer__author">&copy;2021 Eli Zucker</h4>
           </div>
-          <div class="footer__columns footer__column__content__about">
+          <div class="footer__columns footer__column__content__about"> <!---updated:BEM-->
               <h3 class="footer__column-heading">About Practicum by Yandex</h3>
 
-            <nav>
-              <ul class="footer__list">
+            <nav> <!---updated-->
+              <ul class="footer__list"> <!---updated:text alignment-->
                 <li>
                   <a class="footer__column-link" href="#"> Home page </a>
                 </li>
@@ -235,7 +237,7 @@
               </ul>
             </nav>
           </div>
-          <div class="footer__columns footer__column__content__social">
+          <div class="footer__columns footer__column__content__social"> <!---updated:BEM-->
             <p class="footer__column-heading">Social media</p>
             <a class="footer__column-link" href="#">
               <img
