@@ -1,10 +1,8 @@
 .video__iframes{
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
-
+  justify-content: center;
+  margin-bottom: -50px;
+  z-index: 1;
 }
 
 .iframes:first-child{

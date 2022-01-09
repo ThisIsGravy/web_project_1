@@ -5,7 +5,13 @@
 @import url(../blocks/cards/__item/techniques__cards__item.css);
 @import url(../blocks/cards/__title/techniques__cards__title.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/description/__two-columns/two-columns.css);
+@import url(../blocks/description/__two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/description/__two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/description/__two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/description/__two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -69,7 +75,5 @@
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/link/link.css);
-@import url(../blocks/oakley/__two-columns/__brief/oakley__two-columns__brief.css);
-@import url(../blocks/oakley/__two-columns/__main-text/oakley__two-columns__main-text.css);
-@import url(../blocks/oakley/__two-columns/__paragraph/oakley__two-columns__paragraph.css);
+
+
