@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css"/>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning how to learn</title>
@@ -28,11 +29,146 @@
           src="./images/header-image.png"
           alt="A brave learner looking at an abstract blue square"
         />
-        <!---updated-->
+
         <div class="header__square"></div>
-        <!---updated-->
+
       </header>
       <main class="content">
+        <section class="techniques">
+          <h2 class="section-title">Learning Techniques</h2>
+          <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+          <ul class="cards">
+            <li class="cards__item">
+              <img src="images/images_sprint-2/cards-attention.png" class="cards__image" alt="101 Essays to change how you think is held in your hands">
+              <p class="cards__title">Two Ways of Thinking</p>
+              <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+            </li>
+            <li class="cards__item">
+              <img src="images/images_sprint-2/cards-recall.png" class="cards__image"alt="Even statues have to think from time to time">
+              <p class="cards__title">Recall</p>
+              <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+            </li>
+            <li class="cards__item">
+              <img src="images/images_sprint-2/cards-interleaving.png" class="cards__image" alt="The panopticon is real in this picture">
+              <p class="cards__title">Interleaving</p>
+              <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img src="images/images_sprint-2/cards-question.png" class="cards__image" alt="Students asking questions in a classroom">
+              <p class="cards__title">Questions</p>
+              <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.
+
+              </p>
+            </li>
+            <li class="cards__item">
+              <img src="images/images_sprint-2/cards-competence.png" class="cards__image" alt="Students asking questions in a classroom">
+              <p class="cards__title">Illusion of Competence</p>
+              <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.
+
+
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="video">
+          <h2 class="video__section-title">TED talks</h2>
+          <p class="video__section-subtitle">For lovers of procrastination</p>
+          <div class="video__iframes">
+
+              <iframe class="iframes" id="ytplayer" type="text/html" width="515" height="316"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              frameborder="0" allowfullscreen></iframe>
+
+
+              <iframe class="iframes" id="ytplayer" type="text/html" width="515" height="316"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              frameborder="0" allowfullscreen></iframe>
+
+          </div>
+        </section>
+        <section class="oakley">
+          <div class="oakley__two-columns">
+            <h2 class="oakley__two-columns__brief">Barbara Oakley’s story.</h2>
+            <div class="oakley__two-columns__main-text">
+              <p class="oakley__two-columns__paragraph">
+                Math didn't come naturally to Barbara in childhood. She thought of herself as more of a
+humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+school she enlisted in the army, who sent her to learn Russian. After several years of service,
+during which she rose to the rank of Captain, Barbara left the army and decided to study
+engineering. In was during this time that she developed her learning methodology as she was
+forced to reprogram her brain for a different kind of learning. It turns out that when something
+doesn't come naturally to you, having to work hard to gain the knowledge that other people
+may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+
+              </p>
+        </section>
+        <section class="feynman">
+          <h2 class="feynman__title">The Feynman Technique</h2>
+          <p class="feynman__subtitle">Learn Without Forgetting</p>
+          <a class="feynman__link" href="#"> More &#8594; </a>
+        </section>
+        <section class="digits">
+          <h2 class="section-title">Facts and figures</h2>
+          <!---updated-->
+          <p class="section-subtitle">On learning and the brain</p>
+          <!---updated-->
+          <ul class="table">
+            <li class="table__cell">
+              <!---updated margins in CSS and aligned in flex-->
+              <h3 class="table__heading">86 Billion</h3>
+              <p class="table__text">
+                The number of neurons in the human brain
+              </p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">73%</h3>
+              <p class="table__text">
+                The percentage of adults in the US who consider themselves
+                lifelong learners
+              </p>
+              <p class="table__text">Pew Research Center</p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">1,000 terabytes</h3>
+              <p class="table__text">
+                The information storage capacity of a human
+              </p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">500 trillion</h3>
+              <p class="table__text">
+                The number of nerve synapses responsible for learning in the
+                average adult human
+              </p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">420 million</h3>
+              <p class="table__text">
+                The number of adults under 25 with insufficient education for
+                finding employment
+              </p>
+              <p class="table__text">World Bank, 2017</p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">26 years old</h3>
+              <p class="table__text">
+                The age at which Albert Einstein published his groundbreaking
+                paper on special relativity
+              </p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">1885</h3>
+              <p class="table__text">Development of the forgetting curve</p>
+            </li>
+            <li class="table__cell">
+              <h3 class="table__heading">1897</h3>
+              <p class="table__text">
+                Publication of Ivan Pavlov's research on classical conditioning
+              </p>
+            </li>
+          </ul>
+        </section>
         <section class="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">The main problem with education</h2>
@@ -130,12 +266,6 @@
           </ul>
         </section>
 
-        <section class="feynman">
-          <!---updated: removed div-->
-          <h2 class="feynman__title">The Feynman Technique</h2>
-          <p class="feynman__subtitle">Learn Without Forgetting</p>
-          <a class="feynman__link" href="#"> More &#8594; </a>
-        </section>
 
         <section class="kaufman">
           <img

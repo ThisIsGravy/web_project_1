@@ -1,0 +1,12 @@
+.header__square {
+  display: flex;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  z-index: 1;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  translate: rotate(15deg);
+  animation: rotation 20s linear infinite;
+}

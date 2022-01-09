@@ -1,0 +1,10 @@
+@keyframes rotation{
+  from{
+    translate: rotate(15deg);
+    overflow: hidden;
+  }
+  to{
+    translate: rotate(360deg);
+    overflow: hidden;
+  }
+}

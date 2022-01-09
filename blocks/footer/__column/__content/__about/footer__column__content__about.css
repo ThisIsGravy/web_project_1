@@ -1,0 +1,5 @@
+.footer__column__content__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
