@@ -1,10 +1,13 @@
 @keyframes rotation{
   from{
-    translate: rotate(15deg);
-    overflow: hidden;
+    translate: rotate(0deg);
   }
   to{
     translate: rotate(360deg);
-    overflow: hidden;
   }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+  overflow: hidden;
 }

@@ -7,6 +7,5 @@
   position: absolute;
   top: 64px;
   right: 0px;
-  translate: rotate(15deg);
-  animation: rotation 20s linear infinite;
+  transform: rotate(-15deg);
 }
