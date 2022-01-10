@@ -3,8 +3,5 @@
   justify-content: center;
   margin-bottom: -50px;
   z-index: 1;
-}
-
-.iframes:first-child{
-  margin-right: 20px;
+  border: 0;
 }

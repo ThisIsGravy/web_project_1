@@ -2,7 +2,8 @@
   position: absolute;
   right: -124px;
   top: 0px;
-  background-size: 660px 636px;
+  width: 660px;
+  height: 636px;
   z-index: 1;
   overflow: hidden;
 }
