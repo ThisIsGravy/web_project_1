@@ -4,7 +4,3 @@
   font-weight: normal;
   margin: 20px 0 0;
 }
-
-.table__text:last-of-type() {
-  text-indent: 0px;
-}
