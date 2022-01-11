@@ -3,4 +3,5 @@
   position: relative;
   overflow: hidden;
   padding-top: 90px; /*margin not at 100px, please confirm*/
+  padding-bottom: 90px;
 }
